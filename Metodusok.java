@@ -12,7 +12,15 @@ public class Metodusok {
         kiir(kimenet);
         
         int szam1 = 7, szam2 = 4;
-        kiir("%d + %d = %d\n".formatted(szam1, szam2, szam1+szam2,2));
+        int szam3 = 5, szam4 = 8;
+        int szam5 = 3, szam6 = 12;
+        
+        osszeg = osszead(szam1, szam2) + osszead(szam3, szam4);
+        kiir("%d + %d + %d + %d = %d\n".formatted(szam1, szam2,szam3,szam4,osszeg));
+      
+        
+        
+        
     }
 
     private static int elso10SzamOsszege() {
